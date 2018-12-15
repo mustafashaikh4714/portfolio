@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/icon-font.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+<script type="text/javascript" src="js/main.js"></script>
+        <div class="navigation">
+                <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+    
+                <label for="navi-toggle" class="navigation__button">
+                    <span class="navigation__icon">&nbsp;</span>
+                </label>
+    
+                <div class="navigation__background">&nbsp;</div>
+    
+                <nav class="navigation__nav">
+                    <ul class="navigation__list">
+                        <li class="navigation__item"><a href="#about-me" id = "a" class="navigation__link"><span>01</span>About Me</a></li>
+                        <li class="navigation__item"><a href="#portfolio" id = "p" class="navigation__link"><span>02</span>My Most Recent Work</a></li>
+                        <li class="navigation__item"><a href="#contact" id = "c" class="navigation__link"><span>03</span>Contact</a></li>
+                        </ul>
+                </nav>
+            </div>
+
+    <header class="header">
+        <!-- <div class="header__logo-box">
+            <img src="" alt="logo" class="header__logo">
+        </div> -->
+        <div class="header__text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary--main">Hi, I'am Mustafa. I'am Full Stack Web Developer.</span>    
+                <span class="heading-primary--sub">I am passionate about building web applications, I am focus on writing clean, elegant and efficient code.</span>    
+            </h1>
+
+            <a href="#about-me" class="btn btn--white btn--animated">Khow More</a>
+        </div>
+    </header>
+
+     <section class="section-about" id="about-me" >
+     <div class="u-center-text u-margin-bottom-huge">
+            <h2 class="heading-secondary">
+                    About Me.
+            </h2>
+     </div>
+   <div class="row">
+                <div class="col-1-of-2">
+                    <h3 class="heading--text u-margin-bottom-small">
+                       Who Am I ?
+                    </h3>
+                    <p class="paragraph">  My name is <b>Mustafa Shaikh</b> I am gradguated in Computer Science. After Completion of my Computer Science Degree I chose to make a carrear as Web Developer. I am always fascinated about Computers and Technology. </p>
+                    <p class="paragraph">I learn a lot from online resourses such as Udemy, LearnCodeOnline, Lynda, TreeHouse and some online forums like stackOverflow</p>
+                    <p class="paragraph">I enrolled in some cources of Web Development of Udemy's highest rated instructors and make couple of projects</p>
+                    <a href="#popup-me" class="btn-text">Know more &rarr;</a>
+                </div>
+                <div class="col-1-of-2">
+                  <div class="composition">
+                        <img src="img/vscode1.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
+                        <img src="img/vscode2.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
+                        <img src="img/vscode3.jpg" alt="Photo 3" class="composition__photo composition__photo--p3">
+
+                    </div>
+                  </div>
+                </div>
+            </div>
+     </section>
+
+     <section class="section-portfolio" id="portfolio">
+            <div class="bg-video">
+                    <video class="bg-video__content" autoplay muted loop>
+                        <source src="img/video.mp4" type="video/mp4">
+                        <source src="img/video.webm" type="video/webm">
+                        Your browser is not supported!
+                    </video>
+                </div>
+
+            <div class="u-center-text u-margin-bottom-big ">
+                    <h2 class="heading-secondary">Portfolio</h2>
+               </div>
+
+            <div class="row">
+                    <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side">
+                            <div class="u-center-text u-margin-top-0">
+                                <h3 class="card__heading">
+                                   Recipe-Book
+                                   <span class="card__heading--sub u-margin-bottom-medium1">Angular/firebase</span>
+                                </h3>
+                                <a href="#popup1" class="btn  btn--white">Know More</a>
+                            </div>
+                         
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-1-of-3">
+                            <div class="card">
+                                    <div class="card__side">
+                                        <div class="u-center-text u-margin-top-0">
+                                          <h3 class="card__heading">
+                                              Chat-App
+                                               <span class="card__heading--sub u-margin-bottom-medium1">Node with SocketIO</span>
+                                         </h3>
+                                       <a href="#popup2" class="btn btn--white ">Know More</a>
+                                </div>
+                                     
+                              </div>
+                           </div>
+                    </div>
+                    <div class="col-1-of-3">
+                            <div class="card">
+                              <div class="card__side">
+                                      <div class="u-center-text u-margin-top-0">
+                                     <h3 class="card__heading">
+                                          In progress....
+                                       <span class="card__heading--sub u-margin-bottom-medium1">MEAN</span>
+                                    </h3>
+                                       <a href="#popup3" class="btn btn--white btn--card">Know More</a>
+                                  </div>
+                                     
+                             </div>
+                         </div>
+                    </div>
+                </div>
+     </section>
+     
+     <section class="contact" id="contact">
+            <div class="row">
+                <div class="connect">
+                    <div class="connect__form">
+                        <form action="#" class="form">
+                            <div class="u-margin-bottom-small">
+                                <h2 class="heading-secondary">
+                                    Contact Me.
+                                </h2>
+                            </div>
+
+                            <div class="form__group">
+                                <input type="text" class="form__input" placeholder="Full name" id="name" required autocomplete="off">
+                                <label for="name" class="form__label">Full name</label>
+                            </div>
+
+                            <div class="form__group">
+                                <input type="email" class="form__input" placeholder="Email address" id="email" required autocomplete="off">
+                                <label for="email" class="form__label">Email address</label>
+                            </div>
+                            <div class="form__group">
+                                <textarea id="message" cols="" rows="3" class="form__input form__textarea" placeholder="Your Message..." required autocomplete="off"></textarea>
+                                <label for="message" class="form__label">Your message...</label>
+                            </div>
+
+                            <div class="form__group">
+                                <button class="btn btn--blue u-margin-top-small">Submit &rarr;</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+     
+        <footer class="footer">
+                <div class="footer__heading">
+                    <h2 class="footer__heading--text">Get in touch</h2>
+                </div>
+                <div class="footer__box">
+                    <i class=" icon icon-basic-home">  </i>
+                    <h3>Lasalgaon, Nasik <br> Maharashtra 422306 </h3>
+                    
+                </div>
+                <div class="footer__mail">
+                    <i class=" icon icon-basic-mail">  </i>
+                    <h3 class="u-margin-top">shaikhmustafa.4714@gmail.com</h3>
+                    
+                </div>
+                <div class="footer__copyright">
+                     Copyright &copy; 2018 Created by <span class="footer__copyright--name">Mustafa Shaikh</span>. 
+                </div>
+            </footer>
+
+     <div class="popup" id="popup1">
+            <div class="popup__content">
+                    <div class="popup__left">
+                        <img src="" alt="Tour photo" class="popup__img">
+                        <img src="" alt="Tour photo" class="popup__img">
+                    </div>
+                    <div class="popup__right">
+                        <a href="#popup" class="popup__close">&times;</a>
+                        <h2 class="heading-secondary u-margin-bottom-small">Recipe-Book</h2>
+                        <p class="popup__text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus odio similique officiis saepe voluptas, id ad, culpa modi quo rerum perspiciatis iure nulla neque.
+                        </p>
+                        <a href="#" class="btn btn--blue">Visit Site</a>
+                    </div>
+                </div>
+     </div>
+
+     <div class="popup" id="popup2">
+            <div class="popup__content">
+                    <div class="popup__left">
+                        <img src="img/new1.png" alt="screenshot1 photo" class="popup__img">
+                        <img src="img/new2.png" alt="screenshot2 photo" class="popup__img">
+                    </div>
+                    <div class="popup__right">
+                        <a href="#popup" class="popup__close">&times;</a>
+                        <h2 class="heading-secondary u-margin-bottom-small">Chat-app</h2>
+                        <p class="popup__text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus odio similique officiis saepe voluptas, id ad, culpa modi quo rerum perspiciatis iure nulla neque.
+                           <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus odio similique officiis saepe voluptas, id ad, culpa modi quo rerum perspiciatis iure nulla neque.
+                           <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus odio similique officiis saepe voluptas, id ad, culpa modi quo rerum perspiciatis iure nulla neque.
+                           
+                        </p>
+                        <a href="https://heroku47chat-app.herokuapp.com" target="_blank" class="btn btn--blue">Visit Site</a>
+                    </div>
+                </div>
+     </div>
+
+     <div class="popup" id="popup3">
+            <div class="popup__content">
+                    <div class="popup__left">
+                        <img src="" alt="screenshot1 photo" class="popup__img">
+                        <img src="" alt="screenshot2 photo" class="popup__img">
+                    </div>
+                    <div class="popup__right">
+                        <a href="#popup" class="popup__close">&times;</a>
+                        <h2 class="heading-secondary u-margin-bottom-small">MEAN Project</h2>
+                        <p class="popup__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                           <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                           <br> Sed sed risus pretium quam. Aliquam sem et tortor consequat id.
+                        <a href="#" class="btn btn--blue">Visit Site</a>
+                    </div>
+                </div>
+     </div>
+     <div class="popup" id="popup-me">
+            <div class="popup__content">
+                    <div class="popup__left">
+                        <img src="" alt="Tour photo" class="popup__img">
+                    </div>
+                    <div class="popup__right">
+                        <a href="#about-me" class="popup__close">&times;</a>
+                        <h2 class="heading-text u-margin-bottom-small">Key Skills</h2>
+                       
+                          <div class="row u-margin-bottom-small bgcolor">
+                              <div class="col-1-of-2 ">
+                                  <div class="back-50">
+                                    <h3 class="heading-chart heading-chart--1">
+                                        CSS
+                                    </h3>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="row u-margin-bottom-small bgcolor">
+                            <div class="col-1-of-2">
+                                <h3 class="heading-chart heading-chart--2">
+                                    HTML
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="row u-margin-bottom-small bgcolor">
+                            <div class="col-1-of-2">
+                                <h3 class="heading-chart heading-chart--3">
+                                    Javascript (ES6)
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="row u-margin-bottom-small bgcolor">
+                            <div class="col-1-of-2">
+                                <h3 class="heading-chart heading-chart--4">
+                                    Angular and Rxjs
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="row u-margin-bottom-small bgcolor">
+                            <div class="col-1-of-2">
+                                <h3 class="heading-chart heading-chart--5">
+                                    NodeJs (RESTful Web services)
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="row u-margin-bottom-small bgcolor">
+                            <div class="col-1-of-2">
+                                <h3 class="heading-chart heading-chart--6">
+                                    MongoDB
+                                </h3>
+                            </div>
+                        </div>
+                            
+                    </div>
+                </div>
+     </div>
+</body>
+</html>
+
+ <!--
+        <section class="grid-test">
+            <div class="row">
+                <div class="col-1-of-2">
+                    Col 1 of 2
+                </div>
+                <div class="col-1-of-2">
+                    Col 1 of 2
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+                <div class="col-2-of-3">
+                    Col 2 of 3
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-2-of-4">
+                    Col 2 of 4
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-3-of-4">
+                    Col 3 of 4
+                </div>
+            </div>
+        </section>
+        -->

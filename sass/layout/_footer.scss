@@ -1,0 +1,80 @@
+.footer {
+    background-color: $color-grey-dark-3;
+    padding: 20rem 0;
+    font-size: 1.6rem;
+    color: $color-grey-light-1;
+    position: relative;
+
+   &__heading {
+    position: absolute;
+    top: 20%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    border-bottom: 1px solid $color-white;
+
+    &--text {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 2rem;
+        font-weight: 700;
+        background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+        -webkit-background-clip: text;
+         color: transparent;
+
+    }
+
+   
+   }
+   &__box {
+    position: absolute;
+    top: 35%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+  
+   }
+
+   &__mail {
+       position: absolute;
+       top: 43%;
+       left: 41%
+   }
+   h3 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: $color-white;
+    float: right;
+    margin-left: 1.5rem;
+
+}
+
+
+    &__copyright {
+       margin-top: 3rem;
+        padding-top: 2rem;
+        position: absolute;
+        top: 70%;
+        left:50%;
+        transform: translate(-55%);
+
+        &--name 
+        {
+            font-weight: 400;
+            background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+           -webkit-background-clip: text;
+            color: transparent;
+
+        }
+        
+    }
+}
+.icon {
+    
+        font-size: 2.8rem;
+        margin-bottom: .5rem;
+        display: inline-block;
+       
+        background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+        -webkit-background-clip: text;
+        color: transparent;
+    
+}
