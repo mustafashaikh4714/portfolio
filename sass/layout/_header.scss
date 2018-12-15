@@ -21,7 +21,10 @@
     }
     
     &__text-box {
-      @include absCenter;
+        position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, -50%);
       width: 65%;
       backface-visibility: hidden;
         text-align: center;
