@@ -32,7 +32,7 @@ body {
     &--sub {
         width: 80%;
         margin-left: 8rem;
-        
+
         display: block;
         font-size: 2rem;
         font-weight: 400;
@@ -133,6 +133,11 @@ body {
      &--6 {
         background-size: 50% auto;
         width: 140%;
+        background-color: $color-primary-dark;
+     }
+     &--7 {
+        background-size: 50% auto;
+        width: 175%;
         background-color: $color-primary-dark;
      }
 }

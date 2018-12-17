@@ -147,6 +147,10 @@ body {
     background-size: 50% auto;
     width: 140%;
     background-color: #148cd1; }
+  .heading-chart--7 {
+    background-size: 50% auto;
+    width: 175%;
+    background-color: #148cd1; }
 
 .u-center-text {
   text-align: center !important; }
@@ -156,6 +160,9 @@ body {
 
 .u-margin-top-small {
   margin-top: 1.5rem !important; }
+
+.u-margin-top-small-git {
+  margin-top: 2rem !important; }
 
 .u-margin-bottom-medium {
   margin-bottom: 4rem !important; }
@@ -382,7 +389,11 @@ body {
   .popup__img {
     display: block;
     width: 100%;
+    margin: 5rem;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4); }
+    .popup__img--me {
+      height: 35%;
+      margin: 3rem; }
   .popup__text {
     font-size: 1.4rem;
     margin-bottom: 4rem; }
