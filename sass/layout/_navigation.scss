@@ -11,15 +11,12 @@ ul {
 }
 
 ul li {
-    cursor: pointer;
     list-style: none;
-    font-size: 1.6rem;
-    font-weight: 700;
-    color: white;
     display: inline-block;
     float: right;
     padding: 1.5rem;
-    // margin-right: 2rem;
+    margin-top: 1.5rem;
+    margin-right: 2rem;
 }
 
 ul li:hover {
@@ -30,6 +27,11 @@ ul li:hover {
 
 ul li a {
     text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+
 }
 
 .toggle {
@@ -52,13 +54,13 @@ ul li a {
         width: 100%;
         display: none;
         background: #001f44;
-
     }
 
     ul li {
         display: block;
         text-align: center;
         float: none;
+        margin: 0;
     }
     .active {
         display: block;
