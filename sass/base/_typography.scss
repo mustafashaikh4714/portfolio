@@ -70,6 +70,10 @@ body {
     &:not(:last-child) {
         margin-bottom: 3rem;
     }
+    @include respond(tab-port) {
+        word-break: break-all;
+        width: 100%;
+    }
 }
 
 .heading-text {
@@ -141,4 +145,6 @@ body {
         background-color: $color-primary-dark;
      }
 }
+
+
 

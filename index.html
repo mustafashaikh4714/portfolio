@@ -7,27 +7,37 @@
 
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="css/icon-font.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Portfolio</title>
 </head>
 <body>
 <script type="text/javascript" src="js/main.js"></script>
     <header class="header">
-        <!-- <div class="header__logo-box">
-            <img src="" alt="logo" class="header__logo">
-        </div> -->
-        <div class="navigation">
-                <ul class="navigation__list">
-                    <li class="navigation__item"><a class= "navigation__item--link" href="#about-me">About</a></li>
-                    <li class="navigation__item"><a class= "navigation__item--link" href="#portfolio">Portfolio</a></li>
-                    <li class="navigation__item"><a class= "navigation__item--link" href="#contact">Contact</a></li>
-                </ul>
-            </div>
+                <nav>
+                    <div class="toggle">
+                           <div class="menu"> <i class="fa fa-bars" aria-hidden="true"></i></div>
+
+                    </div>
+                    <ul>
+                        <li><a href="#about-me"></a>About Me</li>
+                        <li><a href="#portfolio"></a>Portfolio</li>
+                        <li><a href="#contact"></a>Contact</li>
+                    </ul>
+                </nav>
+                <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+                <script>
+                $(document).ready(function(){
+                    $('.menu').click(function(){
+                       $('ul').toggleClass('active').slideToggle('slow');
+                    })
+                })
+                </script>
 
         <div class="header__text-box">
             <h1 class="heading-primary">
-                <span class="heading-primary--main">Hi, I'am Mustafa. I'am Full Stack Web Developer.</span>    
-                <span class="heading-primary--sub">I am passionate about building web applications, I am focus on writing clean, elegant and efficient code.</span>    
+                <span class="heading-primary--main">Hi, I'am Mustafa. A Web Developer.</span>    
+                <span class="heading-primary--sub">.</span>    
             </h1>
 
             <a href="#about-me" class="btn btn--white btn--animated adjust">Khow More</a>
@@ -49,16 +59,64 @@
                     <p class="paragraph">  My name is <b>Mustafa Shaikh</b> I am gradguated in Computer Science. After Completion of my Computer Science Degree I chose to make a carrear as Web Developer. I am always fascinated about Computers and Technology. </p>
                     <p class="paragraph">I learn a lot from online resourses such as Udemy, LearnCodeOnline, Lynda, TreeHouse and some online forums like stackOverflow</p>
                     <p class="paragraph">I enrolled in some cources of Web Development of Udemy's highest rated instructors and make couple of projects</p>
-                    <a href="#popup-me" class="btn-text">Know more &rarr;</a>
                 </div>
                 <div class="col-1-of-2">
-                  <div class="composition">
-                        <img src="img/vscode1.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
-                        <img src="img/vscode2.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
-                        <img src="img/vscode3.jpg" alt="Photo 3" class="composition__photo composition__photo--p3">
-
+                 <div class="composition">
+                    <h2 class="heading-text u-margin-bottom-small">Key Skills</h2>
+                       
+                    <div class="row u-margin-bottom-small bgcolor">
+                        <div class="col-1-of-2 ">
+                            <div class="back-50">
+                              <h3 class="heading-chart heading-chart--1">
+                                  CSS
+                              </h3>
+                            </div>
+                        </div>
                     </div>
+                    <div class="row u-margin-bottom-small bgcolor">
+                      <div class="col-1-of-2">
+                          <h3 class="heading-chart heading-chart--2">
+                              HTML
+                          </h3>
+                      </div>
                   </div>
+                  <div class="row u-margin-bottom-small bgcolor">
+                      <div class="col-1-of-2">
+                          <h3 class="heading-chart heading-chart--3">
+                              Javascript (ES6)
+                          </h3>
+                      </div>
+                  </div>
+                  <div class="row u-margin-bottom-small bgcolor">
+                      <div class="col-1-of-2">
+                          <h3 class="heading-chart heading-chart--4">
+                              Angular and Rxjs
+                          </h3>
+                      </div>
+                  </div>
+                  <div class="row u-margin-bottom-small bgcolor">
+                      <div class="col-1-of-2">
+                          <h3 class="heading-chart heading-chart--5">
+                              NodeJs
+                          </h3>
+                      </div>
+                  </div>
+                  <div class="row u-margin-bottom-small bgcolor">
+                      <div class="col-1-of-2">
+                          <h3 class="heading-chart heading-chart--6">
+                              MongoDB
+                          </h3>
+                      </div>
+                  </div>
+                  <div class="row u-margin-bottom-small bgcolor">
+                      <div class="col-1-of-2">
+                          <h3 class="heading-chart heading-chart--7">
+                              Java
+                          </h3>
+                      </div>
+                  </div>
+                  </div>
+                 </div>
                 </div>
             </div>
      </section>
@@ -85,7 +143,7 @@
                                    Recipe-Book
                                    <span class="card__heading--sub u-margin-bottom-medium1">Angular/firebase</span>
                                 </h3>
-                                <a href="#popup1" class="btn  btn--white">Know More</a>
+                                <a href="#popup1" class="btn  btn--white">Details</a>
                             </div>
                          
                         </div>
@@ -99,7 +157,7 @@
                                               Chat-App
                                                <span class="card__heading--sub u-margin-bottom-medium1">Node with Socket.IO</span>
                                          </h3>
-                                       <a href="#popup2" class="btn btn--white ">Know More</a>
+                                       <a href="#popup2" class="btn btn--white ">Details</a>
                                 </div>
                                      
                               </div>
@@ -113,7 +171,7 @@
                                           VideoPlayer
                                        <span class="card__heading--sub u-margin-bottom-medium1">MEAN</span>
                                     </h3>
-                                       <a href="#popup3" class="btn btn--white btn--card">Know More</a>
+                                       <a href="#popup3" class="btn btn--white btn--card">Details</a>
                                   </div>
                                      
                              </div>
@@ -158,13 +216,26 @@
         </section>
      
         <footer class="footer">
-                <div class="footer__heading">
-                    <h2 class="footer__heading--text">Get in touch</h2>
-                </div>
+                <!-- <div class="footer__box">
+                        <h2 class="footer__box--heading">Get in touch</h2>
+                        <div class="footer__box--sub1">
+                            <i class=" icon icon-basic-home"></i>
+                            <h3>Lasalgaon, Nasik <br> Maharashtra 422306 </h3>  
+                        </div>
+                        <div class="footer__box--sub2">
+                            <i class=" icon icon-basic-mail"></i>
+                            <h3 class="u-margin-top">shaikhmustafa.4714@gmail.com</h3> 
+                        </div>
+                    </div> -->
+
+             
                 <div class="footer__box">
-                    <i class=" icon icon-basic-home">  </i>
-                    <h3>Lasalgaon, Nasik <br> Maharashtra 422306 </h3>
+                        <h2 class="footer__heading--text">Get in touch</h2>
+                    <div class="footer__heading">
                     
+                    </div>
+                    <i class=" icon icon-basic-home"></i>
+                    <h3>Lasalgaon, Nasik <br> Maharashtra 422306 </h3>  
                 </div>
                 <div class="footer__mail">
                     <i class=" icon icon-basic-mail">  </i>
@@ -222,74 +293,12 @@
                         <p class="popup__text">
                             This is simple Video player. I have created it using Angular, NodeJs, MongoDB, and ExpressJs. Also it has CRUD operations on each video for insert delete and update. 
                            <br>I have posted it on my github repository you can check it out.
+                        </p>
                         <a href="https://github.com/mustafashaikh4714/video-player" target="_blank" class="btn btn--blue u-margin-top-small-git">GitHub</a>
                     </div>
                 </div>
      </div>
-     <div class="popup" id="popup-me">
-            <div class="popup__content">
-                    <div class="popup__left">
-                        <img src="img/mustafa.jpg" alt="my photo" class="popup__img--me">
-                    </div>
-                    <div class="popup__right">
-                        <a href="#about-me" class="popup__close">&times;</a>
-                        <h2 class="heading-text u-margin-bottom-small">Key Skills</h2>
-                       
-                          <div class="row u-margin-bottom-small bgcolor">
-                              <div class="col-1-of-2 ">
-                                  <div class="back-50">
-                                    <h3 class="heading-chart heading-chart--1">
-                                        CSS
-                                    </h3>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="row u-margin-bottom-small bgcolor">
-                            <div class="col-1-of-2">
-                                <h3 class="heading-chart heading-chart--2">
-                                    HTML
-                                </h3>
-                            </div>
-                        </div>
-                        <div class="row u-margin-bottom-small bgcolor">
-                            <div class="col-1-of-2">
-                                <h3 class="heading-chart heading-chart--3">
-                                    Javascript (ES6)
-                                </h3>
-                            </div>
-                        </div>
-                        <div class="row u-margin-bottom-small bgcolor">
-                            <div class="col-1-of-2">
-                                <h3 class="heading-chart heading-chart--4">
-                                    Angular and Rxjs
-                                </h3>
-                            </div>
-                        </div>
-                        <div class="row u-margin-bottom-small bgcolor">
-                            <div class="col-1-of-2">
-                                <h3 class="heading-chart heading-chart--5">
-                                    NodeJs (RESTful Web services)
-                                </h3>
-                            </div>
-                        </div>
-                        <div class="row u-margin-bottom-small bgcolor">
-                            <div class="col-1-of-2">
-                                <h3 class="heading-chart heading-chart--6">
-                                    MongoDB
-                                </h3>
-                            </div>
-                        </div>
-                        <div class="row u-margin-bottom-small bgcolor">
-                            <div class="col-1-of-2">
-                                <h3 class="heading-chart heading-chart--7">
-                                    Java
-                                </h3>
-                            </div>
-                        </div>
-                            
-                    </div>
-                </div>
-     </div>
+
 </body>
 <script>
     $('a[href*="#"]')

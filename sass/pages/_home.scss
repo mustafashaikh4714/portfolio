@@ -2,17 +2,29 @@
         background-color: $color-grey-light-1;
         padding: 25rem 0;
         margin-top: -20vh;
+
+    @include respond(tab-port) {
+        padding: 20rem 0;
+    }
 }
 
 .section-portfolio {
     position: relative;
     background-color: $color-grey-light-1;
     padding: 15rem;
+
+    @include respond(tab-port) {
+        padding: 20rem 0 10rem 0;
+    }
 }
 
 .contact {
     padding: 15rem 0;
     background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+
+    @include respond(tab-port) {
+        padding: 10rem 0;
+    }
 }
 
 .connect {
@@ -24,11 +36,21 @@
     background-size: 100%;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
-
     height: 50rem;
+
+    @include respond(tab-port) {
+        background-image: linear-gradient(to right, 
+        rgba($color-white, .9) 0%,
+        rgba($color-white, .9) 100%),
+url(../img/try.jpg);
+    }
 
     &__form {
         width: 50%;
         padding: 6rem;
+
+        @include respond(tab-port) {
+            width: 100%;
+        }
     }
 }
