@@ -656,7 +656,7 @@ ul li a {
   margin-top: -20vh; }
   @media only screen and (max-width: 56.25em) {
     .section-about {
-      padding: 15rem 0; } }
+      padding: 15rem 0 10rem 0; } }
 
 .section-portfolio {
   position: relative;
@@ -664,7 +664,7 @@ ul li a {
   padding: 15rem; }
   @media only screen and (max-width: 56.25em) {
     .section-portfolio {
-      padding: 10rem 0 15rem 0; } }
+      padding: 8rem 0 15rem 0; } }
 
 .contact {
   padding: 15rem 0;
