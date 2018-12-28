@@ -2,7 +2,7 @@
     position: relative;
 
     @include respond(tab-port) {
-      width: 70%;
+      width: 100%;
     }
 
      h1 {
@@ -10,5 +10,12 @@
          font-size: 1.6rem;
          font-weight: 700;
          color: #2c2121;
+
+         @include respond('tab-port') {
+             font-size: 1rem;
+             font-weight: 700;
+             color: #2c2121;
+             text-transform: uppercase;
+         }
      }
 }

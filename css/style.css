@@ -264,12 +264,18 @@ body {
   position: relative; }
   @media only screen and (max-width: 56.25em) {
     .composition {
-      width: 70%; } }
+      width: 100%; } }
   .composition h1 {
     text-transform: uppercase;
     font-size: 1.6rem;
     font-weight: 700;
     color: #2c2121; }
+    @media only screen and (max-width: 56.25em) {
+      .composition h1 {
+        font-size: 1rem;
+        font-weight: 700;
+        color: #2c2121;
+        text-transform: uppercase; } }
 
 .project-box {
   background-color: rgba(255, 255, 255, 0.8);
@@ -552,7 +558,7 @@ body {
       .footer__mail {
         position: absolute;
         top: 43%;
-        left: 30%; } }
+        left: 25%; } }
   .footer h3 {
     font-size: 1.4rem;
     font-weight: 400;
@@ -568,7 +574,7 @@ body {
     transform: translate(-55%); }
     @media only screen and (max-width: 56.25em) {
       .footer__copyright {
-        width: 62%; } }
+        width: 70%; } }
     .footer__copyright--name {
       font-weight: 400;
       background-image: linear-gradient(to right, #26b5ee, #148cd1);
