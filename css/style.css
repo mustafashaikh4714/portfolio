@@ -100,6 +100,9 @@ body {
     font-size: 2rem;
     font-weight: 400;
     animation: moveInRight 1s ease-out; }
+    @media only screen and (max-width: 56.25em) {
+      .heading-primary--sub {
+        margin-left: 5rem; } }
 
 .heading-secondary {
   font-size: 3.5rem;
@@ -130,7 +133,9 @@ body {
     margin-bottom: 3rem; }
   @media only screen and (max-width: 56.25em) {
     .paragraph {
-      width: 100%; } }
+      word-spacing: normal; } }
+  .paragraph span {
+    color: #2c2121; }
 
 .heading-text {
   text-decoration: none;
@@ -149,43 +154,6 @@ body {
   background-image: linear-gradient(to right, #26b5ee, #148cd1);
   -webkit-background-clip: text;
   color: transparent; }
-
-.heading-chart {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 1.5rem;
-  color: #fff;
-  padding-left: 1.2rem;
-  background-color: #777;
-  border-radius: 2px; }
-  .heading-chart--1 {
-    background-size: 50% auto;
-    width: 180%;
-    background-color: #148cd1; }
-  .heading-chart--2 {
-    background-size: 50% auto;
-    width: 192%;
-    background-color: #148cd1; }
-  .heading-chart--3 {
-    background-size: 50% auto;
-    width: 190%;
-    background-color: #148cd1; }
-  .heading-chart--4 {
-    background-size: 50% auto;
-    width: 175%;
-    background-color: #148cd1; }
-  .heading-chart--5 {
-    background-size: 50% auto;
-    width: 170%;
-    background-color: #148cd1; }
-  .heading-chart--6 {
-    background-size: 50% auto;
-    width: 140%;
-    background-color: #148cd1; }
-  .heading-chart--7 {
-    background-size: 50% auto;
-    width: 175%;
-    background-color: #148cd1; }
 
 .u-center-text {
   text-align: center !important; }
@@ -246,6 +214,9 @@ body {
   transition: all .2s;
   border: none;
   cursor: pointer; }
+  @media only screen and (max-width: 56.25em) {
+    .btn, .btn:link, .btn:visited {
+      padding: 1rem 3rem; } }
 
 .btn:hover {
   transform: translateY(-3px);
@@ -294,6 +265,11 @@ body {
   @media only screen and (max-width: 56.25em) {
     .composition {
       width: 70%; } }
+  .composition h1 {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #2c2121; }
 
 .project-box {
   background-color: rgba(255, 255, 255, 0.8);
@@ -592,7 +568,7 @@ body {
     transform: translate(-55%); }
     @media only screen and (max-width: 56.25em) {
       .footer__copyright {
-        width: 61%; } }
+        width: 62%; } }
     .footer__copyright--name {
       font-weight: 400;
       background-image: linear-gradient(to right, #26b5ee, #148cd1);
