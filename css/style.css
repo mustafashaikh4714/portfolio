@@ -58,7 +58,7 @@ html {
       font-size: 56.25%; } }
   @media only screen and (max-width: 56.25em) {
     html {
-      font-size: 50%; } }
+      font-size: 45%; } }
   @media only screen and (min-width: 112.5em) {
     html {
       font-size: 75%; } }
@@ -552,7 +552,8 @@ body {
       text-transform: uppercase;
       font-size: 2rem;
       font-weight: 700;
-      border-bottom: 1px solid #fff;
+      text-align: center;
+      margin-bottom: 1rem;
       background-image: linear-gradient(to right, #26b5ee, #148cd1);
       -webkit-background-clip: text;
       color: transparent; }
@@ -569,7 +570,7 @@ body {
       .footer__mail {
         position: absolute;
         top: 43%;
-        left: 40%; } }
+        left: 35%; } }
   .footer h3 {
     font-size: 1.4rem;
     font-weight: 400;
@@ -655,7 +656,7 @@ ul li a {
   margin-top: -20vh; }
   @media only screen and (max-width: 56.25em) {
     .section-about {
-      padding: 20rem 0; } }
+      padding: 15rem 0; } }
 
 .section-portfolio {
   position: relative;
@@ -663,7 +664,7 @@ ul li a {
   padding: 15rem; }
   @media only screen and (max-width: 56.25em) {
     .section-portfolio {
-      padding: 20rem 0 10rem 0; } }
+      padding: 10rem 0 15rem 0; } }
 
 .contact {
   padding: 15rem 0;
