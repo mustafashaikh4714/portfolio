@@ -66,12 +66,15 @@ body {
 
 .paragraph {
     font-size: $default-font-size;
+    // word-break: break-all;
+    text-align: justify;
+    letter-spacing: 1.7;
+    word-spacing: .5rem;
 
     &:not(:last-child) {
         margin-bottom: 3rem;
     }
     @include respond(tab-port) {
-        word-break: break-all;
         width: 100%;
     }
 }
@@ -144,6 +147,8 @@ body {
         width: 175%;
         background-color: $color-primary-dark;
      }
+
+
 }
 
 

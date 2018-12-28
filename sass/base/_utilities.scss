@@ -25,4 +25,7 @@
 
 .adjust {
     margin-right: 8rem;
+    @include respond('tab-port') {
+        margin-right: 5rem;
+    }
 }
