@@ -203,6 +203,9 @@ body {
     .adjust {
       margin-right: 5rem; } }
 
+.indent {
+  text-indent: 2rem; }
+
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -275,7 +278,8 @@ body {
         font-size: 1rem;
         font-weight: 700;
         color: #2c2121;
-        text-transform: uppercase; } }
+        text-transform: uppercase;
+        width: 100%; } }
 
 .project-box {
   background-color: rgba(255, 255, 255, 0.8);
