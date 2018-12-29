@@ -67,7 +67,8 @@
         transform: translate(-55%);
 
         @include respond('tab-port') {
-            width: 70%;
+            width: 50%;
+            text-align: center;
         }
 
         &--name 
