@@ -102,7 +102,8 @@ body {
     animation: moveInRight 1s ease-out; }
     @media only screen and (max-width: 56.25em) {
       .heading-primary--sub {
-        margin-left: 3rem; } }
+        margin-left: 3rem;
+        width: 100%; } }
 
 .heading-secondary {
   font-size: 3.5rem;
@@ -374,6 +375,9 @@ body {
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.25);
     transition: all .5s .2s; }
+    @media only screen and (max-width: 56.25em) {
+      .popup__content {
+        width: 85%; } }
   .popup__photo {
     width: 90%; }
     .popup__photo--left {

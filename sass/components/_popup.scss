@@ -23,6 +23,9 @@
         transform: translate(-50%, -50%) scale(.25);
         transition: all .5s .2s;
 
+        @include respond('tab-port') {
+            width: 85%
+        }
     }
 
     &__photo {
