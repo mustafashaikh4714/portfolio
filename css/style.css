@@ -102,7 +102,7 @@ body {
     animation: moveInRight 1s ease-out; }
     @media only screen and (max-width: 56.25em) {
       .heading-primary--sub {
-        margin-left: 5rem; } }
+        margin-left: 3rem; } }
 
 .heading-secondary {
   font-size: 3.5rem;
@@ -275,7 +275,7 @@ body {
     color: #2c2121; }
     @media only screen and (max-width: 56.25em) {
       .composition h1 {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         font-weight: 700;
         color: #2c2121;
         text-transform: uppercase;
@@ -383,6 +383,9 @@ body {
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 10rem; }
+    @media only screen and (max-width: 56.25em) {
+      .popup__right {
+        width: 90%; } }
   .popup__img {
     display: block;
     width: 100%;

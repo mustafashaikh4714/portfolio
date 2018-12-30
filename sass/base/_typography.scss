@@ -39,7 +39,7 @@ body {
         animation: moveInRight 1s ease-out;
 
         @include respond('tab-port') {
-            margin-left: 5rem;
+            margin-left: 3rem;
         }
     }
 }
@@ -109,55 +109,6 @@ body {
 
 }
 
-// .heading-chart {
-//     text-decoration: none;
-//     // width: 50rem;
- 
-//     text-transform: uppercase;
-//     font-size: 1.5rem;
-//     color: $color-white;
-//     padding-left: 1.2rem;
-//     background-color: #777;
-//     border-radius: 2px;
-    
-//      &--1 {
-//         background-size: 50% auto;
-//         width: 180%;
-//         background-color: $color-primary-dark;
-//      }
-//      &--2 {
-//         background-size: 50% auto;
-//         width: 192%;
-//         background-color: $color-primary-dark;
-//      }
-//      &--3 {
-//         background-size: 50% auto;
-//         width: 190%;
-//         background-color: $color-primary-dark;
-//      }
-//      &--4 {
-//         background-size: 50% auto;
-//         width: 175%;
-//         background-color: $color-primary-dark;
-//      }
-//      &--5 {
-//         background-size: 50% auto;
-//         width: 170%;
-//         background-color: $color-primary-dark;
-//      }
-//      &--6 {
-//         background-size: 50% auto;
-//         width: 140%;
-//         background-color: $color-primary-dark;
-//      }
-//      &--7 {
-//         background-size: 50% auto;
-//         width: 175%;
-//         background-color: $color-primary-dark;
-//      }
-
-
-// }
 
 
 

@@ -27,6 +27,7 @@
 
     &__photo {
         width: 90%;
+
         &--left {
             display: table-cell;
         }
@@ -39,6 +40,10 @@
         display: table-cell;
         vertical-align: middle;
         padding: 3rem 10rem;
+
+        @include respond('tab-port') {
+            width: 90%;
+        }
     }
 
     &__img {
