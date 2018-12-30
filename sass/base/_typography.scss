@@ -81,6 +81,7 @@ body {
     }
     @include respond(tab-port) {
         word-spacing: normal;
+        width: 100%;
     }
 
     span {

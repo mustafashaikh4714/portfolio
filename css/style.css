@@ -134,7 +134,8 @@ body {
     margin-bottom: 3rem; }
   @media only screen and (max-width: 56.25em) {
     .paragraph {
-      word-spacing: normal; } }
+      word-spacing: normal;
+      width: 100%; } }
   .paragraph span {
     color: #2c2121; }
 
