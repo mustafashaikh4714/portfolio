@@ -102,7 +102,7 @@ body {
     animation: moveInRight 1s ease-out; }
     @media only screen and (max-width: 56.25em) {
       .heading-primary--sub {
-        margin-left: 3rem;
+        margin-left: .1rem;
         width: 100%; } }
 
 .heading-secondary {
@@ -202,7 +202,7 @@ body {
   margin-right: 8rem; }
   @media only screen and (max-width: 56.25em) {
     .adjust {
-      margin-right: 5rem; } }
+      margin-right: 3rem; } }
 
 .indent {
   text-indent: 2rem; }
